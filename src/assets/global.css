@@ -1,0 +1,49 @@
+/* src/assets/styles/global.css */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .hero-banner {
+    width: 100%;
+    height: auto;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .categories img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+  

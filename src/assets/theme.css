@@ -1,0 +1,23 @@
+
+.primary-color {
+    color: #0066ff;
+  }
+  
+  .secondary-color {
+    color: #ff6600;
+  }
+  
+  .button {
+    background-color: #0066ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056e0;
+  }
+  
